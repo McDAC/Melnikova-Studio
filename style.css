@@ -1,10 +1,11 @@
 /* === Подключение шрифтов === */
 
+/* === Локальные шрифты === */
+
 /* Cormorant - для заголовков */
 @font-face {
     font-family: 'Cormorant';
-    src: url('fonts/cormorant-regular.woff2') format('woff2'),
-         url('fonts/cormorant-regular.woff') format('woff');
+    src: url('fonts/Cormorant-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -12,9 +13,8 @@
 
 @font-face {
     font-family: 'Cormorant';
-    src: url('fonts/cormorant-bold.woff2') format('woff2'),
-         url('fonts/cormorant-bold.woff') format('woff');
-    font-weight: 700;
+    src: url('fonts/Cormorant-Medium.woff2') format('woff2');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
@@ -22,18 +22,8 @@
 /* PT Sans - основной текст */
 @font-face {
     font-family: 'PT Sans';
-    src: url('fonts/ptsans-regular.woff2') format('woff2'),
-         url('fonts/ptsans-regular.woff') format('woff');
+    src: url('fonts/PTSans-Regular.woff2') format('woff2');
     font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'PT Sans';
-    src: url('fonts/ptsans-bold.woff2') format('woff2'),
-         url('fonts/ptsans-bold.woff') format('woff');
-    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -41,17 +31,15 @@
 /* Roboto - для подзаголовков */
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/roboto-regular.woff2') format('woff2'),
-         url('fonts/roboto-regular.woff') format('woff');
-    font-weight: 400;
+    src: url('fonts/Roboto-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/roboto-light.woff2') format('woff2'),
-         url('fonts/roboto-light.woff') format('woff');
+    src: url('fonts/Roboto-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -59,9 +47,24 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/roboto-thin.woff2') format('woff2'),
-         url('fonts/roboto-thin.woff') format('woff');
-    font-weight: 200;
+    src: url('fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-SemiBold.woff2') format('woff2');
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
