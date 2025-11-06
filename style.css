@@ -5,7 +5,7 @@
 /* Cormorant - для заголовков */
 @font-face {
     font-family: 'Cormorant';
-    src: url('fonts/cormorant-regular.woff2') format('woff2');
+    src: url('fonts/Cormorant-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'Cormorant';
-    src: url('fonts/cormorant-medium.woff2') format('woff2');
+    src: url('fonts/Cormorant-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -22,7 +22,7 @@
 /* PT Sans - основной текст */
 @font-face {
     font-family: 'PT Sans';
-    src: url('fonts/ptsans-regular.woff2') format('woff2');
+    src: url('fonts/PTSans-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -31,7 +31,7 @@
 /* Roboto - для подзаголовков */
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/roboto-extralight.woff2') format('woff2');
+    src: url('fonts/Roboto-ExtraLight.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -39,7 +39,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/roboto-light.woff2') format('woff2');
+    src: url('fonts/Roboto-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -47,7 +47,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/roboto-regular.woff2') format('woff2');
+    src: url('fonts/Roboto-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -55,7 +55,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/roboto-medium.woff2') format('woff2');
+    src: url('fonts/Roboto-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -63,7 +63,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/roboto-semibold.woff2') format('woff2');
+    src: url('fonts/Roboto-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
