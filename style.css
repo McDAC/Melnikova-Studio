@@ -1,6 +1,70 @@
-/* === Подключение шрифтов (ДОБАВЬТЕ ЭТОТ БЛОК В НАЧАЛО CSS) === */
 /* === Подключение шрифтов === */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Cormorant - для заголовков */
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonts/cormorant/cormorant-regular.woff2') format('woff2'),
+         url('fonts/cormorant/cormorant-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonts/cormorant/cormorant-bold.woff2') format('woff2'),
+         url('fonts/cormorant/cormorant-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* PT Sans - основной текст */
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/pt-sans/ptsans-regular.woff2') format('woff2'),
+         url('fonts/pt-sans/ptsans-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/pt-sans/ptsans-bold.woff2') format('woff2'),
+         url('fonts/pt-sans/ptsans-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Roboto - для подзаголовков */
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/roboto-regular.woff2') format('woff2'),
+         url('fonts/roboto/roboto-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/roboto-light.woff2') format('woff2'),
+         url('fonts/roboto/roboto-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/roboto-thin.woff2') format('woff2'),
+         url('fonts/roboto/roboto-thin.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {
     margin: 0;
