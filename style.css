@@ -93,7 +93,7 @@ h1 {
     min-height: 72px; /* 48px × 1.5 */
     text-align: center;
     letter-spacing: 1px;
-    margin: 0;
+    margin: 20px;
 }
 
 nav {
