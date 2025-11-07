@@ -148,7 +148,7 @@ a {
     text-transform: uppercase;
 }
 
-article {
+.intro-section {
     padding: 40px 0;
     background-color: #F8F8F8;
     display: flex;
